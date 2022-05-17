@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal' ,sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: black;
+}
+
+body{
+    background-color: beige;
+}
+
+
+.main-body{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-postes{
+    padding: 1rem;
+    width: 60%;
+}
+
+.post-releted{
+    padding: 1rem;
+    width: 40%;
+}
+
+@media(max-width:1200px){
+    .main-body{
+        display: block;
+    }
+    .post-releted{
+        width: 100%;
+    }
+    .latest-postes{
+        width: 100%;
+    }
+}
+
+.latest-postes-title{
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-align: right;
+    background-color: white;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 10px lightgray ;
+}
+
+.latest-postes-title:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.latest-postes-element{
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.latest-postes-element:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.element-img{
+    background-image: url(../img/profile-image.jpg);
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.element-content{
+    
+    width: 70%;
+    padding: 1rem 2rem;
+}
+
+.element-content-title{
+    font-size: 1.3rem;
+}
+
+.element-content-infos{
+    display: flex;
+    justify-content: flex-end;
+    margin: .1rem 0rem; 
+    font-size: 1rem;
+}
+
+
+
+
+.element-content-info1{ 
+    font-weight: 400;
+    font-size: .9rem;
+    margin: 0rem 1rem;
+}
+.element-content-info2{ 
+    font-weight: 400;
+    font-size: .9rem;
+    margin: 0rem 1rem;
+}
+
+.element-content-info3{
+    font-weight: 400;
+    font-size: .9rem;
+    margin: 0rem 0rem 0rem 1rem ;
+}
+.element-content-desc{
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.element-content-shr{
+    padding: .4rem 1rem;
+    margin-top: 1rem;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.element-content-shr:hover{
+    transform: scale(1.05);
+    transition: ,3s;
+    color: white;
+    background-color: black;
+    transition: .4s;
+}
+
+
+
+.posts-topics{
+    padding: .5rem 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+
+.posts-topics-title{
+    width: 100%;
+    text-align: right;
+}
+
+
+
+.posts-topics-container{
+    margin: .6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.posts-topics-item{
+    padding: .5rem 1.5rem;
+    width: 30%;
+    background-color: lightskyblue;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px lightgray;
+    border: 1px solid gray;
+}
+
+
+.posts-topics-item:hover{
+    transform: scale(1.02);
+    transition: .3s;
+    box-shadow: 1px 1px 10px gray;
+    background-color: deepskyblue;
+    
+}
+
+.posts-topics-most{
+    margin-top: 2rem;
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px lightgray;
+    
+}
+
+.most-watched{
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.most-content{
+    width: 75%;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    text-align: right;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 5px ;
+}
+.most-watched:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    box-shadow: 1px 1px 10px gray;
+}
+.most-content-title{
+ font-size: 1.1rem;   
+}
+
+.most-content-infos{
+    display: flex;
+    justify-content: flex-end;
+    margin: .3em 0rem; 
+    font-size: 1rem;
+}
+
+.most-content-info1{ 
+    font-weight: 600;
+    font-size: .6rem;
+    margin: 0rem .5rem;
+}
+.most-content-info2{ 
+    font-weight: 600;
+    font-size: .6rem;
+    margin: 0rem .5rem;
+}
+
+.most-content-desc{
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.most-content-info3{
+    font-weight: 600;
+    font-size: .6rem;
+    margin: 0rem 0rem 0rem .5rem ;
+}
+
+.most-img{
+    width: 25%;
+    background-image: url(../img/profile-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+

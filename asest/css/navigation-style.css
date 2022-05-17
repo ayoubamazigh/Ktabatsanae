@@ -1,0 +1,124 @@
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    transition: transform .2s;
+}
+
+.main-nav-title{
+    margin: 1rem;
+}
+
+.main-nav-title a{
+    margin: 1rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+
+
+
+.main-nav-links{
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav-link li{
+    padding: .5rem 1.5rem;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.main-nav-link li:hover{
+    color: black;
+    background-color: aqua;
+    transition: .3s;
+}
+
+.main-nav-link:hover{
+    transform: scale(1.03)
+    
+}
+
+.main-nav-search{
+    display: flex;
+}
+
+.main-nav-search-text{
+    height: 2.5rem;
+    margin: 0rem .5rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black; 
+    background-color: 
+    color: black;
+}
+
+.main-nav-search-text:hover{
+    border: 2px solid blue;
+    box-shadow: 0px 0px 10px gray;
+    transform: scale(1.01);
+    transition: .2s;
+}
+
+
+.main-nav-search-btn{
+    margin: 0rem -.2rem 0rem .5rem;;
+    width: 5rem;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+.main-nav-search-btn:hover{
+    transform: scale(1.03);
+    transition: .2s;
+    background-color: aqua;
+}
+
+.burger{
+    margin: 1rem;
+    height: 3rem;
+    width: 3rem;
+    display: none;
+}
+
+.slice{
+    margin: .05rem 0rem;
+    width: 3rem;;
+    height: .6rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+@media(max-width: 1450px){
+    .main-nav-search{
+        display: none;
+    }
+}
+
+@media(max-width: 1150px){
+    .main-nav-links{
+        margin-top: 16rem;
+        position: absolute;
+        width: 100%;
+        display: none;
+        background-color: darkcyan;
+        transform: scale(-1)
+    }
+    
+    .main-nav-link li{
+        border-radius: 0px;
+        width: 100%;
+        text-align: center;
+        transform: scale(-1)
+    }
+    .burger{
+        display: grid;
+    }
+}
+
