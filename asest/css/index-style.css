@@ -12,6 +12,7 @@
 
 body{
     background-color: beige;
+    min-width: 800px;
 }
 
 
@@ -40,6 +41,9 @@ body{
     }
     .latest-postes{
         width: 100%;
+    }
+    .element-content-info3{
+        display: none;
     }
 }
 
@@ -99,8 +103,10 @@ body{
     margin: .1rem 0rem; 
     font-size: 1rem;
 }
-
-
+ 
+.element-content-infos div i{
+    color: red;
+}
 
 
 .element-content-info1{ 
@@ -225,6 +231,10 @@ body{
     font-size: 1rem;
 }
 
+.most-content-infos div i{
+    color: red;
+}
+
 .most-content-info1{ 
     font-weight: 600;
     font-size: .6rem;
@@ -247,6 +257,8 @@ body{
     font-size: .6rem;
     margin: 0rem 0rem 0rem .5rem ;
 }
+
+
 
 .most-img{
     width: 25%;
